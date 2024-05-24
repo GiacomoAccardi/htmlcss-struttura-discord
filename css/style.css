@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*LAYOUT STYLES*/
+
+.container-full{
+    width:100%;
+}
+
+.container{
+    width: 1000px;
+    margin:0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-25{
+    width: 25%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.content{
+    background-color: orange;
+    border: 1px dashed black;
+    padding: 5px;
+}
+
+
+.ta-center{
+    text-align: center;
+}
+
+.ta-right{
+    text-align: right;
+}
+
+
+/*STYLING*/
+
+.bg-azure{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.border-conf{
+    border: 1px dotted black;
+}
