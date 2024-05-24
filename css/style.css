@@ -53,6 +53,26 @@
     padding: 5px;
 }
 
+.row-foot{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sm{
+    background-color: aqua;
+    border: 2px dashed white;
+    height: 300px;
+    width: calc(100% / 6);
+}
+
+.col-smx2{
+    background-color: rgb(252, 140, 159);
+    border: 2px dashed rgb(0, 0, 0);
+    height: 300px;
+    width: calc(100% / 6 *2);
+}
+
 
 .ta-center{
     text-align: center;
@@ -66,6 +86,11 @@
     padding: 30px;
 }
 
+.pfoot{
+    padding-top: 10px;
+    padding-bottom: 45px;
+    margin: auto 30px;
+}
 
 /*STYLING*/
 
@@ -90,4 +115,8 @@
 
 .bg-grey{
     background-color: lightgray;
+}
+
+.dark-bg{
+    background-color: rgb(27, 31, 37);
 }
