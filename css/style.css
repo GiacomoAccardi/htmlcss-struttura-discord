@@ -41,6 +41,12 @@
     background-color: rgb(255, 111, 243);
 }
 
+.col-100large{
+    width: 100%;
+    height: 600px;
+    background-color: green;
+}
+
 .content{
     background-color: orange;
     border: 1px dashed black;
