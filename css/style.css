@@ -21,6 +21,11 @@
     flex-wrap: wrap;
 }
 
+.row-special{
+    padding: 10px 0 10px 0;
+    background-color: rgb(94, 255, 255);
+}
+
 .col-25{
     width: 25%;
 }
@@ -87,10 +92,26 @@
 }
 
 .pfoot{
-    padding-top: 10px;
-    padding-bottom: 45px;
-    margin: auto 30px;
+    padding:10px 30px 45px 30px;
 }
+
+.content-foot{
+    background-color: pink;
+    border: 1px dashed black;
+    padding: 5px 0;
+}
+
+.p-special{
+    padding: 25px 0;
+    margin: 0 30px;
+}
+
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 
 /*STYLING*/
 
